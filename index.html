@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | G'afforzoda Mehriniso — Frontend Developer</title>
+    <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom UI/UX Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-layout">
+    <!-- Mobile Header -->
+    <header class="mobile-header">
+        <a href="index.html" class="mobile-logo">Mehriniso<span>.dev</span></a>
+        <label for="sidebar-toggle" class="menu-btn" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </header>
+
+    <!-- Pure CSS Sidebar Toggle Checkbox -->
+    <input type="checkbox" id="sidebar-toggle" class="sidebar-checkbox">
+    <label for="sidebar-toggle" class="sidebar-overlay"></label>
+
+    <!-- Left Fixed Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-top">
+            <div class="profile-card">
+                <div class="avatar-ring">
+                    <div class="avatar-placeholder"></div>
+                    <span class="status-dot" title="Available for freelance & full-time"></span>
+                </div>
+                <h2 class="profile-name">G'afforzoda Mehriniso</h2>
+                <p class="profile-role">Madam Frontend Engineer</p>
+            </div>
+
+            <nav class="sidebar-nav" aria-label="Primary Navigation">
+                <ul>
+            <li>
+                <a href="index.html" class="nav-link active">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="about.html" class="nav-link">
+                    <i class="fa-solid fa-user"></i>
+                    <span>About</span>
+                </a>
+            </li>
+      
+            <li>
+                <a href="portfolio.html" class="nav-link">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <span>Portfolio</span>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html" class="nav-link">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span>Contact</span>
+                </a>
+            </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="sidebar-bottom">
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://t.me" target="_blank" rel="noopener" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://dribbble.com" target="_blank" rel="noopener" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+            <p class="copyright">&copy; 2009 Mehriniso.dev</p>
+        </div>
+    </aside>
+
+        <!-- Main Content Viewport -->
+        <main class="main-content">
+            <div class="ambient-glow glow-1"></div>
+            <div class="ambient-glow glow-2"></div>
+            <div class="content-container fade-in">
+                <section class="hero-section">
+                    
+                    <h1 class="hero-title">
+                     <span class="gradient-text">G'afforzoda Mehriniso</span>  <br>
+                        Frontend Dasturchi
+                    </h1>
+                    <p class="hero-subtitle">
+                        Men <strong>Frontend dasturchi</strong>  sifatida tezkor, estetik va foydalanuvchilar uchun qulay raqamli mahsulotlarni loyihalashtiraman hamda kodlayman.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="portfolio.html" class="btn btn-primary">
+                            <span>Loyihalarni ko'rish</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="contact.html" class="btn btn-secondary">
+                            <i class="fa-regular fa-envelope"></i>
+                            <span>Bog'lanish</span>
+                        </a>
+                    </div>
+
+                    <!-- Key Metrics / Quick Stats -->
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Oylik tajriba</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Muvaffaqiyatli loyihalar</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">1</span>
+                            <span class="stat-label">Mijozlar mamnuniyati</span>
+                        </div>
+                   
+                    </div>
+
+                    <!-- Featured Tech Stack Strip -->
+                    <div class="tech-showcase">
+                        <p class="section-eyebrow">ASOSIY TEXNOLOGIYALAR</p>
+                        <div class="tech-pills">
+                            <span class="tech-pill"><i class="fa-brands fa-html5"></i> HTML5</span>
+                            <span class="tech-pill"><i class="fa-brands fa-css3-alt"></i> CSS3 / Bootstrap</span>
+                            <span class="tech-pill"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</span>
+                            <span class="tech-pill"><i class="fa-brands fa-react"></i> React </span>
+                            <span class="tech-pill"><i class="fa-brands fa-figma"></i> Figma </span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

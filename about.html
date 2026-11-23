@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | G'afforzoda Mehriniso — Frontend Developer</title>
+    <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom UI/UX Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-layout">
+    <!-- Mobile Header -->
+    <header class="mobile-header">
+        <a href="index.html" class="mobile-logo">Mehriniso<span>.dev</span></a>
+        <label for="sidebar-toggle" class="menu-btn" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </header>
+
+    <!-- Pure CSS Sidebar Toggle Checkbox -->
+    <input type="checkbox" id="sidebar-toggle" class="sidebar-checkbox">
+    <label for="sidebar-toggle" class="sidebar-overlay"></label>
+
+    <!-- Left Fixed Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-top">
+            <div class="profile-card">
+                <div class="avatar-ring">
+                    <div class="avatar-placeholder"></div>
+                    <span class="status-dot" title="Available for freelance & full-time"></span>
+                </div>
+                <h2 class="profile-name">G'afforzoda Mehriniso</h2>
+                <p class="profile-role">Madam Frontend Engineer</p>
+            </div>
+
+            <nav class="sidebar-nav" aria-label="Primary Navigation">
+                <ul>
+            <li>
+                <a href="index.html" class="nav-link">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="about.html" class="nav-link active">
+                    <i class="fa-solid fa-user"></i>
+                    <span>About</span>
+                </a>
+            </li>
+        
+            <li>
+                <a href="portfolio.html" class="nav-link">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <span>Portfolio</span>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html" class="nav-link">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span>Contact</span>
+                </a>
+            </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="sidebar-bottom">
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://t.me" target="_blank" rel="noopener" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://dribbble.com" target="_blank" rel="noopener" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Mehriniso.dev</p>
+        </div>
+    </aside>
+
+        <!-- Main Content Viewport -->
+        <main class="main-content">
+            <div class="ambient-glow glow-1"></div>
+            <div class="ambient-glow glow-2"></div>
+            <div class="content-container fade-in">
+                <div class="page-header">
+                    <span class="section-eyebrow">MEN HAQIMDA</span>
+                    <h1 class="page-title">Kreativ kod va <span class="gradient-text">UI/UX dizayn</span> uyg'unligi</h1>
+                    <p class="page-desc">Har bir piksel va har bir millisekund foydalanuvchi tajribasi uchun xizmat qiladi.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="glass-card about-bio">
+                        <h3>Salom! Men kimman?</h3>
+                        <p>
+                            Men G'afforzoda Mehriniso Javlonbek qizi 2009-yil 16-mayda Toshkent shahar Uchtepa tumani Yusuf Sakkokiy mahallasi 1-tor 30-uyda tug'ilganman. Hozirda 14-IDUM da o'qiyapman.
+                        </p>
+                        <p>
+                            Mening asosiy maqsadim kelajakda zo'r kasb egasi bo'lish va zo'r yutuqlarga erishish. Qo'shimcha o'quv mashg'ulotlarimdan men IT House Akademiyasiga Web dasturlash va Ingliz tiliga kelaman.  
+                        </p>
+                        <div class="info-list">
+                            <div class="info-item">
+                                <span class="info-key">Ism-sharif:</span>
+                                <span class="info-val">G'afforzoda Mehriniso</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-key">Manzil:</span>
+                                <span class="info-val">Toshkent, O'zbekiston</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-key">Email:</span>
+                                <span class="info-val">m60132207@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-key">Holat:</span>
+                                <span class="info-val highlight-green">Freelance / Remote tayyor</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Technical Skills Progress Bars -->
+                    <div class="glass-card skills-box">
+                        <h3>Texnik ko'nikmalar</h3>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span>HTML5 & Semantic Markup</span>
+                                <span>98%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-fill" style="width: 98%;"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span>CSS3, Grid, Flexbox & Animations</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-fill" style="width: 95%;"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span>JavaScript (ES6+)</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-fill" style="width: 90%;"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span>React.js </span>
+                                <span>92%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-fill" style="width: 92%;"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span>(Figma)</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-fill" style="width: 85%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Services / What I Do -->
+                <div class="services-section">
+                    <h2 class="sub-heading">Nimalar bilan shug'ullanaman?</h2>
+                    <div class="services-grid">
+                        <div class="glass-card service-card">
+                            <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                            <h4>Frontend Arxitektura</h4>
+                            <p>Zamonaviy SPA va SSR veb-ilovalarni modul va kengaytiriluvchan arxitektura asosida qurish.</p>
+                        </div>
+                        <div class="glass-card service-card">
+                            <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                            <h4>UI/UX Dizayn & Animatsiya</h4>
+                            <p>Foydalanuvchi psixologiyasiga mos mikro-interaksiyalar va zamonaviy vizual tizimlar yaratish.</p>
+                        </div>
+                        <div class="glass-card service-card">
+                            <div class="service-icon"><i class="fa-solid fa-gauge-high"></i></div>
+                            <h4>Tezlik va Optimallashtirish</h4>
+                            <p>Core Web Vitals ko'rsatkichlarini yaxshilash, yuklanish vaqtini qisqartirish va SEO moslashuv.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

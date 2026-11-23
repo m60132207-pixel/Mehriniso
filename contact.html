@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | G'afforzoda Mehriniso — Frontend Developer</title>
+    <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom UI/UX Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-layout">
+    <!-- Mobile Header -->
+    <header class="mobile-header">
+        <a href="index.html" class="mobile-logo">Mehriniso<span>.dev</span></a>
+        <label for="sidebar-toggle" class="menu-btn" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </header>
+
+    <!-- Pure CSS Sidebar Toggle Checkbox -->
+    <input type="checkbox" id="sidebar-toggle" class="sidebar-checkbox">
+    <label for="sidebar-toggle" class="sidebar-overlay"></label>
+
+    <!-- Left Fixed Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-top">
+            <div class="profile-card">
+                <div class="avatar-ring">
+                    <div class="avatar-placeholder">G'M</div>
+                    <span class="status-dot" title="Available for freelance & full-time"></span>
+                </div>
+                <h2 class="profile-name">G'afforzoda Mehriniso</h2>
+                <p class="profile-role">Madam Frontend Engineer</p>
+            </div>
+
+            <nav class="sidebar-nav" aria-label="Primary Navigation">
+                <ul>
+            <li>
+                <a href="index.html" class="nav-link">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="about.html" class="nav-link">
+                    <i class="fa-solid fa-user"></i>
+                    <span>About</span>
+                </a>
+            </li>
+      
+            <li>
+                <a href="portfolio.html" class="nav-link">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <span>Portfolio</span>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html" class="nav-link active">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span>Contact</span>
+                </a>
+            </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="sidebar-bottom">
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://t.me" target="_blank" rel="noopener" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://dribbble.com" target="_blank" rel="noopener" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Mehriniso.dev</p>
+        </div>
+    </aside>
+
+        <!-- Main Content Viewport -->
+        <main class="main-content">
+            <div class="ambient-glow glow-1"></div>
+            <div class="ambient-glow glow-2"></div>
+            <div class="content-container fade-in">
+                <div class="page-header">
+                    <span class="section-eyebrow">ALOQA</span>
+                    <h1 class="page-title">Keling, birga <span class="gradient-text">ajoyib loyiha</span> yaratamiz</h1>
+                    <p class="page-desc">Yangi loyiha, hamkorlik yoki shunchaki salomlashish uchun xabar qoldiring.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Info Cards -->
+                    <div class="contact-details">
+                        <div class="glass-card contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                            <div>
+                                <h4>Elektron pochta</h4>
+                                <p>m60132207@gmail.com</p>
+                                <span class="contact-note">2 soat ichida javob beraman</span>
+                            </div>
+                        </div>
+
+                        <div class="glass-card contact-item">
+                            <div class="contact-icon"><i class="fa-brands fa-telegram"></i></div>
+                            <div>
+                                <h4>Telegram</h4>
+                                <p>@nodira_ruzieva</p>
+                                <span class="contact-note">Tezkor muloqot uchun</span>
+                            </div>
+                        </div>
+
+                        <div class="glass-card contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h4>Manzil</h4>
+                                <p>Toshkent sh., Uchtepa tumani</p>
+                                <span class="contact-note">Masofaviy (Remote) ish uchun ham ochiq</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <form class="glass-card contact-form" action="#" method="post">
+                        <h3>Xabar yuborish</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Ismingiz</label>
+                                <input type="text" id="name" name="name" placeholder="Masalan: Jasur Aliyev" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email manzilingiz</label>
+                                <input type="email" id="email" name="email" placeholder="jasur@example.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Loyiha turi / Mavzu</label>
+                            <select id="subject" name="subject">
+                                <option value="web">Veb-sayt yaratish (Landing / Korporativ)</option>
+                                <option value="saas">SaaS / Web App Frontend</option>
+                                <option value="uiux">UI/UX Dizayn va Prototiplash</option>
+                                <option value="other">Boshqa hamkorlik</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Xabaringiz</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Loyihangiz haqida qisqacha ma'lumot yozing..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Xabarni yuborish</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | G'afforzoda Mehriniso — Frontend Developer</title>
+    <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom UI/UX Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-layout">
+    <!-- Mobile Header -->
+    <header class="mobile-header">
+        <a href="index.html" class="mobile-logo">Mehriniso<span>.dev</span></a>
+        <label for="sidebar-toggle" class="menu-btn" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </header>
+
+    <!-- Pure CSS Sidebar Toggle Checkbox -->
+    <input type="checkbox" id="sidebar-toggle" class="sidebar-checkbox">
+    <label for="sidebar-toggle" class="sidebar-overlay"></label>
+
+    <!-- Left Fixed Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-top">
+            <div class="profile-card">
+                <div class="avatar-ring">
+                    <div class="avatar-placeholder"></div>
+                    <span class="status-dot" title="Available for freelance & full-time"></span>
+                </div>
+                <h2 class="profile-name">G'afforzoda Mehriniso</h2>
+                <p class="profile-role">Madam Frontend Engineer</p>
+            </div>
+
+            <nav class="sidebar-nav" aria-label="Primary Navigation">
+                <ul>
+            <li>
+                <a href="index.html" class="nav-link">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="about.html" class="nav-link">
+                    <i class="fa-solid fa-user"></i>
+                    <span>About</span>
+                </a>
+            </li>
+
+            </li>
+            <li>
+                <a href="portfolio.html" class="nav-link active">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <span>Portfolio</span>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html" class="nav-link">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span>Contact</span>
+                </a>
+            </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="sidebar-bottom">
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://t.me" target="_blank" rel="noopener" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://dribbble.com" target="_blank" rel="noopener" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+            <p class="copyright">&copy; 2009 Mehriniso.dev</p>
+        </div>
+    </aside>
+
+        <!-- Main Content Viewport -->
+        <main class="main-content">
+            <div class="ambient-glow glow-1"></div>
+            <div class="ambient-glow glow-2"></div>
+            <div class="content-container fade-in">
+                <div class="page-header">
+                    <span class="section-eyebrow">TANLANGAN ISHLAR</span>
+                    <h1 class="page-title">Mening <span class="gradient-text">Portfoliom</span></h1>
+                    <p class="page-desc">Yaqinda yakunlangan veb-ilovalar, JavaScript/Vue loyihalari va zamonaviy landing sahifalar.</p>
+                </div>
+
+                <!-- Pure CSS Filter Tabs -->
+                <div class="portfolio-wrapper">
+                    <input type="radio" name="filter" id="filter-all" checked class="filter-radio">
+                    <input type="radio" name="filter" id="filter-web" class="filter-radio">
+                    <input type="radio" name="filter" id="filter-app" class="filter-radio">
+
+                    <div class="filter-tabs">
+                        <label for="filter-all" class="filter-btn">Barchasi (5)</label>
+                        <label for="filter-app" class="filter-btn">Veb-ilovalar (3)</label>
+                        <label for="filter-web" class="filter-btn">Landing Sahifalar (2)</label>
+                    </div>
+
+                    <div class="portfolio-grid">
+                        <!-- Project 1: Interactive Counter -->
+                        <article class="project-card glass-card" data-category="app">
+                            <div class="project-thumb project-thumb-img">
+                                <img src="images/counter.jpg" alt="Interaktiv Hisoblagich (Counter App)">
+                                <div class="project-overlay">
+                                    <a href="images/counter.jpg" target="_blank" class="icon-circle" title="Rasmni kattalashtirish"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="https://github.com" target="_blank" rel="noopener" class="icon-circle" title="Source Code"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="project-body">
+                                <span class="project-cat">Interaktiv Veb-ilova</span>
+                                <h3>Counter App — Interaktiv Hisoblagich</h3>
+                                <p>Qiymatni oshirish (add), kamaytirish (remove) va nolga qaytarish (reset) tugmalariga ega sodda hamda qulay hisoblagich ilovasi.</p>
+                                <div class="project-tags">
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Project 2: Digital Clock with Vue.js -->
+                        <article class="project-card glass-card" data-category="app">
+                            <div class="project-thumb project-thumb-img">
+                                <img src="images/digital-clock.jpg" alt="Digital Clock with Vue.js">
+                                <div class="project-overlay">
+                                    <a href="images/digital-clock.jpg" target="_blank" class="icon-circle" title="Rasmni kattalashtirish"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="https://github.com" target="_blank" rel="noopener" class="icon-circle" title="Source Code"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="project-body">
+                                <span class="project-cat">Vue.js Ilova</span>
+                                <h3>Digital Clock — Raqamli Soat</h3>
+                                <p>Vue.js yordamida yaratilgan, joriy sana, hafta kuni va aniq vaqtni neon effektli qorong'u fonda ko'rsatuvchi raqamli veb-soat.</p>
+                                <div class="project-tags">
+                                    <span>Vue.js</span>
+                                    <span>HTML5</span>
+                                    <span>CSS Glow</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Project 3: Tesla Roadster Landing Page -->
+                        <article class="project-card glass-card" data-category="web">
+                            <div class="project-thumb project-thumb-img">
+                                <img src="images/tesla-roadster.jpg" alt="Tesla Roadster Landing Page">
+                                <div class="project-overlay">
+                                    <a href="images/tesla-roadster.jpg" target="_blank" class="icon-circle" title="Rasmni kattalashtirish"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="https://github.com" target="_blank" rel="noopener" class="icon-circle" title="Source Code"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="project-body">
+                                <span class="project-cat">Avtomobil Landing Sahifasi</span>
+                                <h3>Tesla Roadster — Promo Veb-sayt</h3>
+                                <p>Tesla Roadster elektromobili taqdimoti, to'liq navigatsiya paneli hamda Reserve Now va Learn More harakat tugmalariga ega sahifa.</p>
+                                <div class="project-tags">
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>Responsive UI</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Project 4: Dark Calculator -->
+                        <article class="project-card glass-card" data-category="app">
+                            <div class="project-thumb project-thumb-img">
+                                <img src="images/calculator.jpg" alt="Dark Mode Veb Kalkulyator">
+                                <div class="project-overlay">
+                                    <a href="images/calculator.jpg" target="_blank" class="icon-circle" title="Rasmni kattalashtirish"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="https://github.com" target="_blank" rel="noopener" class="icon-circle" title="Source Code"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="project-body">
+                                <span class="project-cat">Veb-ilova</span>
+                                <h3>Dark Calculator — Veb Kalkulyator</h3>
+                                <p>Asosiy arifmetik amallar (+, -, x, /), o'nlik sonlar va natijani bir bosishda tozalash (C) funksiyasiga ega zamonaviy kalkulyator.</p>
+                                <div class="project-tags">
+                                    <span>JavaScript</span>
+                                    <span>CSS Grid</span>
+                                    <span>Dark UI</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Project 5: BMW M5 Showcase -->
+                        <article class="project-card glass-card" data-category="web">
+                            <div class="project-thumb project-thumb-img">
+                                <img src="images/bmw-m5.jpg" alt="BMW M5 Showcase Landing Page">
+                                <div class="project-overlay">
+                                    <a href="images/bmw-m5.jpg" target="_blank" class="icon-circle" title="Rasmni kattalashtirish"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="https://github.com" target="_blank" rel="noopener" class="icon-circle" title="Source Code"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="project-body">
+                                <span class="project-cat">Avtomobil Landing Sahifasi</span>
+                                <h3>The All-New BMW M5 — Ko'rgazma Sahifasi</h3>
+                                <p>Yangi BMW M5 modelini taqdim etuvchi, yuqori menyu bo'limlari va Learn More tugmasiga ega zamonaviy ko'rgazma veb-sahifasi.</p>
+                                <div class="project-tags">
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>Flexbox</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
